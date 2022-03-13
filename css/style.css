@@ -1,0 +1,93 @@
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+header p{
+    background-color: #1cd1b0;
+    padding: 10px;
+}
+
+header h1{
+    background-color: #00669f;
+    padding-left: 28px;
+    padding-top: 28px;
+    padding-bottom: 26px;
+    font-family: Roboto, sans-serif;
+    font-size: 40px;
+}
+
+.tamaño-caja{
+    display: inline-block;
+    width: 300px;
+    /*height: 529px;*/
+    margin-top: 120px;
+    margin-left: 32px;
+    margin-bottom: 120px;
+    border: solid 1px black;
+    border-radius: 16px;
+    background-color: #f3f3f3;
+}
+
+.card-head{
+    height: 193;
+    position: relative;
+     
+}
+.corazon{
+    position: absolute;
+    top: 13px;
+    left: 15px;
+}
+.foto-perfil{
+    position: absolute;
+    border-radius: 60px;
+    top: 130px;
+    left: 90px;
+
+
+}
+.card-body{
+    
+    height: 336px;
+    
+    
+}
+main section article div h2{
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 70px;
+    text-align: center;
+}
+main section article div p{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding: 15px;
+   
+}
+.boton{
+    
+    background-color: #00669f;
+    width: 140px;
+    height: 50px;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+.texto-boton{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+footer p.pieDePagina{
+    background-color: #00669f;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    padding: 16px;
+    color: white;
+}
